@@ -20,6 +20,6 @@ except KeyError:
 	print("[!] Error: you've exceeded your daily usage, wait 24 hours\n")
 	exit()
 except KeyboardInterrupt:
-	print("[!] KeyboardInterrupt: Exiting..\n.")
+	print("[!] KeyboardInterrupt: Exiting...\n")
 	time.sleep(1)
 	exit()
